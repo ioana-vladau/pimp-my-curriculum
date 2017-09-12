@@ -6,3 +6,33 @@ body{
     background-color:#303030;
     color:white;
 }
+
+.colorboxes{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#square1{
+    width:100px;
+    height:100px;
+    background-color: #f75d45;
+    margin:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#square2{
+    width:100px;
+    height:100px;
+    background-color: #5e80d1;
+    margin:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#square3{
+    width:100px;
+    height:100px;
+    background-color: #60c4a5;
+    margin:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
