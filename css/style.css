@@ -1,44 +1,150 @@
-*{
-    box-sizing:border-box;
+* {
+    box-sizing: border-box;
 }
 
-body{
-    background-color:#303030;
-    color:white;
-}
-
-#header-title{
+body {
+    background-color: #303030;
+    color: white;
     font-family: 'Overpass Mono', monospace;
-    text-align: left;
+    overflow: hidden;
 }
 
-#MMDtitle{
+#header-title {
+    position: absolute;
+    text-align: left;
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin: left top;
+    -moz-transform: rotate(90deg);
+    -moz-transform-origin: left top;
+    -ms-transform: rotate(90deg);
+    -ms-transform-origin: left top;
+    -o-transform: rotate(90deg);
+    -o-transform-origin: left top;
+    transform: rotate(90deg);
+    transform-origin: left top;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    white-space: nowrap;
+    font-size: 48px;
+    letter-spacing: 1em;
+}
+
+#MMDtitle {
     font-family: 'Overpass Mono', monospace;
     font-size: 4em;
     text-align: left;
-    margin-left: 13em;
+    margin-left: 10em;
+    margin-top: -100px;
+    line-height: 0.9em;
 }
 
-#multimedia{
+#multimedia {
     color: #f75d45;
 }
-#design{
+
+#underscore{
+    color:white;
+}
+
+#design {
     color: #60c4a5;
 }
-#curriculum{
-/*    color: #4c78bb;*/
+
+#curriculum {
+    /*    color: #4c78bb;*/
     color: #5e80d1;
 }
 
-.flex{
+.flex {
     display: flex;
     flex-direction: row;
     margin-left: 7em;
     margin-right: 7em;
 }
 
-.item{
+.item {
     width: 50%;
-    height: 30vh;
-    border: 1px solid white;
+    height: 55vh;
+    margin: 10px;
+}
+
+.colorboxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+}
+
+#square1 {
+    background-color: #f75d45;
+}
+
+#square2 {
+    background-color: #5e80d1;
+}
+
+#square3 {
+    background-color: #60c4a5;
+}
+
+#square4{
+    background-color: white;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+
+#whiteitem {
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    text-decoration: none;
+    color: #303030;
+    padding-top: 1.5em;
+}
+
+nav span {
+    background-color: white;
+    padding: 0.5em;
+}
+
+.item .encodesans {
+    font-family: 'Encode Sans Semi Condensed', sans-serif, monospace;
+    width: 80%;
+}
+
+.titlediv {
+    margin-left: 7em;
+}
+
+.item img{
+    width: 20%;
+}
+
+.item #header{
+    color: #f75d45;
+}
+
+.item #subheader{
+    color: #5e80d1;
+}
+
+#bringitup{
+    margin-top: -20px;
+}
+
+.moveDown{
+    margin-top: 50px;
 }
