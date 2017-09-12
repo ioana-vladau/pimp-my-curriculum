@@ -6,3 +6,39 @@ body{
     background-color:#303030;
     color:white;
 }
+
+#header-title{
+    font-family: 'Overpass Mono', monospace;
+    text-align: left;
+}
+
+#MMDtitle{
+    font-family: 'Overpass Mono', monospace;
+    font-size: 4em;
+    text-align: left;
+    margin-left: 13em;
+}
+
+#multimedia{
+    color: #f75d45;
+}
+#design{
+    color: #60c4a5;
+}
+#curriculum{
+/*    color: #4c78bb;*/
+    color: #5e80d1;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7em;
+    margin-right: 7em;
+}
+
+.item{
+    width: 50%;
+    height: 30vh;
+    border: 1px solid white;
+}
